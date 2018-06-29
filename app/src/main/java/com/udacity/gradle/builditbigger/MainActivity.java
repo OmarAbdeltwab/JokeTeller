@@ -59,7 +59,7 @@ public static Activity activity;
 new EndpointsAsyncTask().execute( view.getContext() );
     }
 
-    static class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
+    public static class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
         private static MyApi myApiService = null;
         private Context context;
 
