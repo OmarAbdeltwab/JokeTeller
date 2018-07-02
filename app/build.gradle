@@ -54,6 +54,16 @@ android {
         java.srcDirs = ['src/paid/java']
         res.srcDirs = ['src/paid/res']
         assets.srcDirs = ['src/paid/assets']
+    }
+
+
+    }
+    sourceSets {
+    free {
+        manifest.srcFile 'src/free/AndroidManifest.xml'
+        java.srcDirs = ['src/free/java']
+        res.srcDirs = ['src/free/res']
+        assets.srcDirs = ['src/free/assets']
     }}
 }
 
