@@ -1,7 +1,5 @@
 import android.test.AndroidTestCase;
 
-import com.udacity.gradle.builditbigger.MainActivity;
-
 import org.junit.Test;
 
 import java.util.concurrent.ExecutionException;

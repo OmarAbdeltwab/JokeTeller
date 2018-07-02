@@ -1,21 +1,21 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Jun 29, 2018 7:58:13 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
-INFO: Overwriting system property key 'java.util.logging.config.file', value '/usr/lib/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/media/omar/707C28897C284C62/edu/Android/UdacityNanoDegree/MyProjects/JokeTeller(BuildItBigger)/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-Jun 29, 2018 7:58:14 PM com.google.apphosting.utils.jetty.JettyLogger info
+Jul 02, 2018 2:42:05 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/usr/lib/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/home/omar/UdacityNanoDegree/MyProjects/JokeTeller(BuildItBigger)/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Jul 02, 2018 2:42:05 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-Jun 29, 2018 5:58:15 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
-WARNING: Your working directory, (/media/omar/707C28897C284C62/edu/Android/UdacityNanoDegree/MyProjects/JokeTeller(BuildItBigger)/backend) is not equal to your 
-web application root (/media/omar/707C28897C284C62/edu/Android/UdacityNanoDegree/MyProjects/JokeTeller(BuildItBigger)/backend/build/exploded-backend)
+Jul 02, 2018 12:42:06 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/home/omar/UdacityNanoDegree/MyProjects/JokeTeller(BuildItBigger)/backend) is not equal to your 
+web application root (/home/omar/UdacityNanoDegree/MyProjects/JokeTeller(BuildItBigger)/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-Jun 29, 2018 5:58:15 PM com.google.apphosting.utils.jetty.JettyLogger info
+Jul 02, 2018 12:42:06 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: jetty-6.1.x
-Jun 29, 2018 5:58:20 PM com.google.apphosting.utils.jetty.JettyLogger info
+Jul 02, 2018 12:42:08 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Started SelectChannelConnector@0.0.0.0:8080
-Jun 29, 2018 5:58:20 PM com.google.appengine.tools.development.AbstractModule startup
+Jul 02, 2018 12:42:08 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Jun 29, 2018 5:58:20 PM com.google.appengine.tools.development.AbstractModule startup
+Jul 02, 2018 12:42:08 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Jun 29, 2018 7:58:20 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Jul 02, 2018 2:42:08 PM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
