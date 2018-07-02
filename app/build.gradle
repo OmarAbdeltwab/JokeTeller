@@ -31,6 +31,30 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions 'Dimension'
+
+    productFlavors{
+
+        free{
+            dimension 'Dimension'
+            applicationId="com.udacity.gradle.builditbigger.free"
+        }
+        paid{
+            dimension 'Dimension'
+
+            applicationId="com.udacity.gradle.builditbigger.paid"
+
+        }
+    }
+
+
+    sourceSets {
+    paid {
+        manifest.srcFile 'src/paid/AndroidManifest.xml'
+        java.srcDirs = ['src/paid/java']
+        res.srcDirs = ['src/paid/res']
+        assets.srcDirs = ['src/paid/assets']
+    }}
 }
 
 dependencies {
@@ -49,3 +73,4 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
 }
+
