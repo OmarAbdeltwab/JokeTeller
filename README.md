@@ -7,7 +7,7 @@ of four modules. A Java library that provides jokes, a Google Cloud Endpoints
 activity for displaying jokes, and an Android app that fetches jokes from the
 GCE module and passes them to the Android Library for display.
 
-* Added free and paid flavors to an app, and set up your build to share code between them
+* Added free and paid flavors to an app, and set up build to share code between them
 * Factored reusable functionality into a Java library
 * Factorde reusable Android functionality into an Android library
 * Configured a multi project build to compile your libraries and app
